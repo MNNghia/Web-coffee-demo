@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./asset/img/coffe.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>Coffee Đồi Gió</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Begin: header -->
+        <header id="home"class="header">
+            <a href="" class="home"> <img src="./asset/img/logo-coffe.png" alt="" class="header-logo"></a> 
+            <ul class="header-nav">
+                <li class="header-nav__item">
+                    <a href="" class="header-nav__link">HOME</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="" class="header-nav__link">PAGES</a>
+                    <i class="fa-solid fa-chevron-right nav-icon"></i>
+                    <i class="fa-solid fa-chevron-down nav-icon-hover"></i>
+                    <ul class="pages">
+                        <li class="page"><a href="#gallery" class="page-link">about us</a></li>
+                        <li class="page"><a href="#contact" class="page-link">about me</a></li>
+                        <li class="page"><a href="#gallery" class="page-link">our team</a></li>
+                        <li class="page"><a href="#shop" class="page-link">what your offer</a></li>
+                        <li class="page"><a href="#shop" class="page-link">our menu</a></li>
+                        <li class="page"><a href="#footer" class="page-link">locations</a></li>
+                        <li class="page"><a href="#contact" class="page-link">contact us</a></li>
+                    </ul>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#gallery" class="header-nav__link">GALLERY</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#shop" class="header-nav__link">SHOP</a>
+                    <i class="fa-solid fa-chevron-right nav-icon"></i>
+                    <i class="fa-solid fa-chevron-down nav-icon-hover"></i>
+                    <ul class="pages">
+                        <li class="page"><a href="" class="page-link">Sort drink</a></li>
+                        <li class="page"><a href="" class="page-link">juice</a></li>
+                        <li class="page"><a href="" class="page-link">smoothie</a></li>
+                        <li class="page"><a href="" class="page-link">tea</a></li>
+                        <li class="page"><a href="" class="page-link">coffee</a></li>
+                        <li class="page"><a href="" class="page-link">cocktail</a></li>
+                        <li class="page"><a href="" class="page-link">milkshake</a></li>
+                    </ul>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#contact" class="header-nav__link">CONTACT</a>
+                </li>
+            </ul>
+            <ul class="header-user">
+                <label for="ch-search-bar" class="header-search icon-header-user">
+                    <i class="fa-solid fa-magnifying-glass  header-icon-search"></i>
+                </label>
+                <label for="cart-pay" class="header-cart  icon-header-user">
+                    <i class="fa-solid fa-cart-shopping  header-icon-cart"></i>
+                </label>
+                <div class="header-login icon-header-user">
+                    <label for="user-login" class="user-login">
+                        <i class="fa-solid fa-user  header-icon-login"></i>
+                        <span class="text-login">Login</span>
+                    </label>
+                    <input type="checkbox" id="user-login">
+                    <label for="user-login"  class="logins">
+                        <div class="logins-content">
+                            <div class="main-login">
+                                <!-- Register -->
+                                <span class="author-login">Author: Nguyễn Minh Nghĩa</span>
+                                <input type="checkbox" id="cv-re-lg" class="cv-login">
+                                <div class="modal-register">
+                                    <label for="cv-re-lg" class="nav-login">Log in <i class="fa-solid fa-arrow-right icon-arrow-login"></i></label>
+                                    <h3 class="title-login">Hello there.</h3>
+                                    <p class="description-login">You need an account to continue</p>
+                                    <form action="" class = "">
+                                        <input type="text" required class="username form-login" placeholder="Full Name"> <br>
+                                        <input type="text" pattern="{0,9}" required class="userphon form-login" placeholder="Phone"> <br>
+                                        <input type="text" required class="Pass form-login" placeholder="Password"> <br>
+                                        <input type="text" required class="Pass form-login" placeholder="Repeat Password"> <br>
+                                        <input type="submit" value="Sign up" class="submit-login">
+                                    </form>
+                                    <input type="checkbox">
+                                    <span class="security-login">You agree to our <span class="link-login">Privacy</span> and <span class="link-login">Tems Of Service</span></span>
+                                </div>
+                                <!-- Log in -->
+                                <div class="modal-login">
+                                    <label for="cv-re-lg" class="nav-login">Sign up <i class="fa-solid fa-arrow-right icon-arrow-login"></i></label>
+                                    <h3 class="title-login">Hello there.</h3>
+                                    <p class="description-login">Welcome Back</p>
+                                    <form action="" class = "">
+                                        <input type="text" pattern="{0,9}" required class="userphon form-login" placeholder="Phone"> <br>
+                                        <input type="text" required class="Pass form-login" placeholder="Password"> <br>
+                                        <input type="submit" value="Log in" class="submit-login">
+                                    </form>
+                                    <span class="forgot-pass">Forgot your password?</span>
+                                    <span class="new-acc">New a account</span>
+                                </div>
+                            </div>
+                                <!-- Modal-l-g-img -->
+                            <div class="img-coffee-login">
+                                <img src="./asset/img/img-coffee-login.jpg" class = "img-login" alt="">
+                            </div>
+                        </d>
+                    </label>
+                </div>
+            </ul>
+        </header>
+        <!-- End: header -->
+
+        <!-- Begin: Slider -->
+        <div class="Slider">
+            <div class="slide-content">
+                <img src="./asset/img/icon-slide.png" class="slide-logo-coffee" alt="">
+                <h2 class="slide-title">COFFEE ĐỒI GIÓ</h2>
+                <img src="./asset/img/slider-separator.png" alt="" class="slide-separator">
+                <p class="slide-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam totam eos veniam perferendis repudiandae nobis aperiam quas nostrum? </p>
+                <a href="#shop" class="link-shop">SHOP HERE</a>
+            </div>
+        </div>
+        <!-- End: Slider -->
+        <!-- Begin: Popular-product -->
+        <div class="popular-product">
+            <h2 class="title-background-product">Products</h2>
+            <div class="main-pp">
+                <h4 class="pp-title-product">Popular products</h4>
+                <img src="./asset/img/title-separator-gr.png" class="pp-icon-sepa"alt="">
+                <p class="pp-text">Products Integer quis tempor orci. Suspendisse potenti.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
+            <div class="pp-products">
+                <div class="pp-product">
+                    <div class="pp-product-vm">More info<i class="fa-solid fa-chevron-right pp-icon-product"></i></div>
+                    <div class="pp-product-to-cart">Add to cart <i class="fa-solid fa-bag-shopping pp-icon-cart"></i></div>
+                    <div class="pp-product-overlay"></div>
+                    <img src="./asset/img/coffe2.jpg" class="pp-product-img" alt=""><br>
+                    <div class="pp-product-content">
+                        <ul class="rate-stars">
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                        </ul>
+                        <p class="pp-product-name">Coffee</p>
+                        <p class="pp-product-des">Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</p>
+                        <p class="pp-product-cost">30.000đ</p>
+                    </div>
+                </div>
+                <div class="pp-product">
+                    <div class="pp-product-vm">More info<i class="fa-solid fa-chevron-right pp-icon-product"></i></div>
+                    <div class="pp-product-to-cart">Add to cart <i class="fa-solid fa-bag-shopping pp-icon-cart"></i></div>
+                    <div class="pp-product-overlay"></div>
+                    <img src="./asset/img/Kem.jpg" class="pp-product-img" alt=""><br>
+                    <div class="pp-product-content">
+                        <ul class="rate-stars">
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                        </ul>
+                        <p class="pp-product-name">Kem</p>
+                        <p class="pp-product-des">Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</p>
+                        <p class="pp-product-cost">40.000đ</p>
+                    </div>
+                </div>
+                <div class="pp-product">
+                    <div class="pp-product-vm">More info<i class="fa-solid fa-chevron-right pp-icon-product"></i></div>
+                    <div class="pp-product-to-cart">Add to cart <i class="fa-solid fa-bag-shopping pp-icon-cart"></i></div>
+                    <div class="pp-product-overlay"></div>
+                    <img src="./asset/img/banhngot.jpg" class="pp-product-img" alt=""><br>
+                    <div class="pp-product-content">
+                        <ul class="rate-stars">
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                            <i class="fa-solid fa-star rate-star"></i>
+                        </ul>
+                        <p class="pp-product-name">Bánh Ngọt</p>
+                        <p class="pp-product-des">Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</p>
+                        <p class="pp-product-cost">35.000đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pp-read-more">Read more <i class="fa-solid fa-chevron-right pp-icon-more"></i></div>
+        </div>
+        <!-- End: Popular-product --> 
+        <!-- Begin: Contact -->
+        <div id="contact" class="contact">
+            <p class="contact-text">
+                Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada 
+                fames ac ante ipsum primis in faucibus.
+            </p>
+            <div class="contact-phone"><span class="contact-phone-red">0886</span>-520-800</div>
+            <a href="#shop" class="contact-shop">Shop now  </a>  
+        </div>
+        <!-- End: Contact -->
+        <!-- Begin: Product-items -->
+        <div id="shop" class="product-items">
+            <div class="wrap-product-items-h">
+                <h3 class="product-items-title">ITEMS IN OUR SHOP</h3>
+                <img src="./asset/img/title-separator-gr.png" class="pp-icon-sepa"alt="">
+                <p class="pp-text">Products Integer quis tempor orci. Suspendisse potenti.
+                        Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
+            <div class="product-items-content">
+                <div class="product-item">
+                    <button class="product-item-add">Add to cart<i class="fa-solid fa-check product-item-check"></i></button>
+                    <img src="./asset/img/suavakem.jpg" class ="product-item-img"alt="">
+                    <div class="product-item-des">
+                        <p class="product-item-name">MILK AND ICE CREAM</p>
+                        <p class="product-item-cost">30.000đ</p>
+                    </div>
+                    <div class="border-item"></div>
+                </div>
+                <div class="product-item">
+                    <button class="product-item-add">Add to cart<i class="fa-solid fa-check product-item-check"></i></button>
+                    <img src="./asset/img/Lemonnade.jpg" class ="product-item-img"alt="">
+                    <div class="product-item-des">
+                        <p class="product-item-name">LEMONADE</p>
+                        <p class="product-item-cost">30.000đ</p>
+                    </div>
+                    <div class="border-item"></div>
+                </div>
+                <div class="product-item">
+                    <button class="product-item-add">Add to cart<i class="fa-solid fa-check product-item-check"></i></button>
+                    <img src="./asset/img/mocha.jpg" class ="product-item-img"alt="">
+                    <div class="product-item-des">
+                        <p class="product-item-name">CAPPUCCINO</p>
+                        <p class="product-item-cost">30.000đ</p>
+                    </div>
+                    <div class="border-item"></div>
+                </div>
+                <div class="product-item">
+                    <button class="product-item-add">Add to cart<i class="fa-solid fa-check product-item-check"></i></button>
+                    <img src="./asset/img/nuoepvatraic.jpg" class ="product-item-img"alt="">
+                    <div class="product-item-des">
+                        <p class="product-item-name">JUICE AND CAKE</p>
+                        <p class="product-item-cost">30.000đ</p>
+                    </div>
+                    <div class="border-item"></div>
+                </div>
+                <div class="product-item">
+                    <button class="product-item-add">Add to cart<i class="fa-solid fa-check product-item-check"></i></button>
+                    <img src="./asset/img/tea.jpg" class ="product-item-img"alt="">
+                    <div class="product-item-des">
+                        <p class="product-item-name">TEA</p>
+                        <p class="product-item-cost">30.000đ</p>
+                    </div>
+                    <div class="border-item"></div>
+                </div>
+                <div class="product-item">
+                    <button class="product-item-add">Add to cart<i class="fa-solid fa-check product-item-check"></i></button>
+                    <img src="./asset/img/cokai.jpg" class ="product-item-img"alt="">
+                    <div class="product-item-des">
+                        <p class="product-item-name">COCKTAIL</p>
+                        <p class="product-item-cost">30.000đ</p>
+                    </div>
+                    <div class="border-item"></div>
+                </div>
+                <div class="product-item-blend">Shop the Blend<i class="fa-solid fa-arrow-right product-item-icon-more"></i></div>
+            </div>
+        </div>
+        <!-- End:Product-items -->
+        <!-- Begin: Gallery -->
+        <div id="gallery" class="gallery">
+            <div class="wrap-product-items-h">
+                <h3 class="product-items-title">OUR SWEET GALLERY</h3>
+                <img src="./asset/img/title-separator-gr.png" class="pp-icon-sepa"alt="">
+                <p class="pp-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="wrap-gallery">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-gallery-1.jpg" alt="">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-gallery-8.jpg" alt="">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-gallery-5.jpg" alt="">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-gallery-10.jpg" alt="">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-gallery-11.jpg" alt="">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-gallery-12.jpg" alt="">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-1.jpg" alt="">
+                <img class="gallery-img" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-3.jpg" alt="">
+            </div>
+        </div>
+        <!-- Begin: Footer -->
+        <div id="footer" class="Footer">
+            <div class="footer-header">
+                <img class="header-logo footer-logo" src="./asset/img/logo-coffe.png" alt="">
+                <div class="footer-society">
+                    <p class="footer-society-text">Follow us  <a class="fa-solid fa-minus icon-minus"></a></p>
+                    <i class="fa-brands fa-twitter icon-twitter"></i>
+                    <a href="https://www.facebook.com/ghinsha"><i class="fa-brands fa-facebook-f icon-fb"></i></a>
+                    <i class="fa-brands fa-instagram icon-ins"></i>
+                    <i class="fa-brands fa-google-plus-g icon-google"></i>
+                </div>
+            </div>
+            <div class="footer-body">
+                <div class="about">
+                    <h3 class="footer-title1">About us</h3>
+                    <p class="address"><span class="address-text">Address:</span> 21 Newstreet, Chaitan town, India,<br> 109-74</p>
+                    <i class="fa-solid fa-phone hotline"><span class="hotline-text">+700800-50-800</span> </i><br>
+                    <i class="fa-solid fa-envelope mail"><span class="mail-text">manager@chaitan.md</span></i>
+                </div>
+                <div class="footer-title2">
+                    <h3 class="explore">Explore</h3>
+                    <div class="wrap-explore">
+                        <p class="footer-home footer-href"><i class="fa-solid fa-chevron-right footer-icon-link"></i>Home</p> 
+                        <p class="footer-sub-au footer-href"><i class="fa-solid fa-chevron-right footer-icon-link"></i>About us</p>
+                        <p class="footer-pro footer-href"><i class="fa-solid fa-chevron-right footer-icon-link"></i>Products</p>
+                        <p class="footer-Gallery footer-href"><i class="fa-solid fa-chevron-right footer-icon-link"></i>Gallery</p>
+                        <p class="footer-contact footer-href"><i class="fa-solid fa-chevron-right footer-icon-link"></i>Contact</p>
+                    </div>
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1954.5995814066523!2d107.78883921744386!3d11.537566300000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3173f64162bfeac1%3A0x6405de5395655d90!2zQ8OgIHBow6ogR2_Mo2kgR2lvzIE!5e0!3m2!1svi!2s!4v1652004362896!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <a href="#home"><i class="fa-solid fa-angle-up call-back"></i></a>
+        </div>
+        <!-- End: Footer -->
+        <!-- End: Gallery -->
+    </div>
+
+    <!-- Search-header -->
+    <input type="checkbox" id="ch-search-bar">
+    <div class="input-search">
+        <input type="text" class="search-bar" placeholder="SEARCH">
+        <label for="ch-search-bar" class="cancel-search"><i class="fa-solid fa-xmark icon-cancel"></i></label>
+    </div>
+    <!-- Modal-cart -->
+    <input type="checkbox" id="cart-pay">
+    <label for="cart-pay" class="modal-cart">
+        <div class="modal-cart-content">
+            <label class="cart-items">
+                <label for="cart-pay" class="go-back"><i class="fa-solid fa-arrow-left icon-back-cart"></i>Back to shop</label>
+                <div class="cart-items-header">
+                    <span class="cart-items-title">Shopping Cart</span>
+                    <span class="cart-items-number">3 items</span>
+                </div>
+                <div class="cart-item">
+                    <img src="./asset/img/tra-sua-3.png" alt="" class="cart-item-img">
+                    <p class="item-name">Milktea</p>
+                    <div class="item-quantity">
+                        <label class="fa-solid fa-minus icon-cart-minus"></label>
+                        <span class="item-quantity-number">1</span>
+                        <label class="fa-solid fa-plus icon-cart-add"></label>
+                    </div>
+                    <p class="item-cost">40.000đ</p>
+                    <label class="fa-solid fa-xmark item-delete"></label>
+                </div>
+                <div class="cart-item">
+                    <img src="./asset/img/coffee item.png" alt="" class="cart-item-img">
+                    <p class="item-name">Coffee</p>
+                    <div class="item-quantity">
+                        <label class="fa-solid fa-minus icon-cart-minus"></label>
+                        <span class="item-quantity-number">1</span>
+                        <label class="fa-solid fa-plus icon-cart-add"></label>
+                    </div>
+                    <label class="item-cost">30.000đ</label>
+                    <label class="fa-solid fa-xmark item-delete"></label>
+                </div>
+                <div class="cart-item">
+                    <img src="./asset/img/nuocep.jpg" alt="" class="cart-item-img">
+                    <p class="item-name">Fruit Juice</p>
+                    <div class="item-quantity">
+                        <label class="fa-solid fa-minus icon-cart-minus"></label>
+                        <span class="item-quantity-number">1</span>
+                        <label class="fa-solid fa-plus icon-cart-add"></label>
+                    </div>
+                    <label class="item-cost">30.000đ</label>
+                    <label class="fa-solid fa-xmark item-delete"></label>
+                </div>
+            </label>
+            <label class="cart-pay">
+                <h3 class="title-cart-pay">Summary</h3>
+                <span class="cart-pay-items">ITEMS 3</span>
+                <span class="pay-cost">1.000.000đ</span>
+                <p class="pay-shipping">SHIPPING</p>
+                <input type="text" class="address-shipping" placeholder="Your address">
+                <p class="Note">Notes for the store</p>
+                <input type="text" class="Note-for-store" placeholder="Your note for store">
+                <div class="don-not-no"></div>
+                <p class="total-cost-text">TOTAL PRICE</p>
+                <p class="total-cost">1.000.000đ</p>
+                <button class="pay-now">PAYMENT</button>
+                <!-- notifycation -->
+                <div class="error-noti">
+                    <i class="fa-solid fa-circle-exclamation icon-error"></i>
+                    <div class="error-content">
+                        <p class="title-error">Thất bại!</p>
+                        <p class="description-error">Bạn cần đăng nhập</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </label>
+</body>
+</html>
